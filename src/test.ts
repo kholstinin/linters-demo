@@ -1,6 +1,6 @@
 const s = 5;
 
-/** {@link b} */
+/** {@link s} */
 function a(a: number, b: number): number {
 	return s + a + b;
 }
