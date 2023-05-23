@@ -1,0 +1,20 @@
+{
+  "name": "linters-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kholstinin/linters-demo.git",
+  "author": "kholstinin <kholstinin@yandex-team.ru>",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "test:eslint": "npx jest --config jest-eslint.config.js"
+  },
+  "devDependencies": {
+    "@v4fire/linters": "git+https://github.com/v4fire/linters#rework_rules"
+  },
+  "dependencies": {
+    "jest": "29.5.0",
+    "jest-runner-eslint": "2.0.0",
+    "typescript": "4.6.2"
+  }
+}
